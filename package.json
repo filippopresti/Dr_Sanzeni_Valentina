@@ -1,0 +1,17 @@
+{
+  "name": "nutritionist_website-main",
+  "version": "1.0.0",
+  "description": "Sito statico in HTML, JavaScript e Tailwind CSS. Nessun framework, nessuna build obbligatoria: si può aprire in un browser o caricare su qualsiasi hosting statico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./input.css -o ./assets/css/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
